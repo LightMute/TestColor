@@ -13,7 +13,7 @@ public class playerjoin implements Listener {
 	@EventHandler
 	public void playerjoinevents(LoginEvent e) {
 		ProxiedPlayer player = (ProxiedPlayer) e.getConnection();
-		player.sendMessage(player.getName()+ Color.fromRGB(34, 24, 17) + " coucou");
+		/*test */ player.sendMessage(player.getName()+ Color.fromRGB(34, 24, 17) + " coucou");
 	}
 
 }
